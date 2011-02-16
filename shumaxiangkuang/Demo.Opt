@@ -1,0 +1,76 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (Target 1), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(User),1,0,0
+GRPOPT 2,(Core),1,0,0
+GRPOPT 3,(FWLib),0,0,0
+
+OPTFFF 1,1,1,0,0,39,44,0,<.\User\main.c><main.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,44,0,0,0,58,0,0,0,93,4,0,0,107,1,0,0 }
+OPTFFF 1,2,1,0,0,0,0,0,<.\User\stm32f10x_it.c><stm32f10x_it.c> 
+OPTFFF 1,3,5,0,0,0,0,0,<.\User\stm32f10x_conf.h><stm32f10x_conf.h> 
+OPTFFF 1,4,1,385875968,0,802,812,0,<.\User\lcd.c><lcd.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,0,0,0,0,0,0,0,0,45,4,0,0,252,0,0,0 }
+OPTFFF 1,5,5,134217728,0,36,36,0,<.\User\lcd.h><lcd.h> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,88,0,0,0,116,0,0,0,137,4,0,0,165,1,0,0 }
+OPTFFF 1,6,5,167772160,0,23,28,0,<.\User\fonts.h><fonts.h> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,0,0,0,0,0,0,0,0,49,4,0,0,49,1,0,0 }
+OPTFFF 2,7,2,0,0,0,0,0,<.\Core\cortexm3_macro.s><cortexm3_macro.s> 
+OPTFFF 2,8,2,0,0,0,0,0,<.\Core\stm32f10x_vector.s><stm32f10x_vector.s> 
+OPTFFF 3,9,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_adc.c><stm32f10x_adc.c> 
+OPTFFF 3,10,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_bkp.c><stm32f10x_bkp.c> 
+OPTFFF 3,11,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_can.c><stm32f10x_can.c> 
+OPTFFF 3,12,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_crc.c><stm32f10x_crc.c> 
+OPTFFF 3,13,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_dac.c><stm32f10x_dac.c> 
+OPTFFF 3,14,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_dbgmcu.c><stm32f10x_dbgmcu.c> 
+OPTFFF 3,15,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_dma.c><stm32f10x_dma.c> 
+OPTFFF 3,16,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_exti.c><stm32f10x_exti.c> 
+OPTFFF 3,17,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_flash.c><stm32f10x_flash.c> 
+OPTFFF 3,18,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_fsmc.c><stm32f10x_fsmc.c> 
+OPTFFF 3,19,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_gpio.c><stm32f10x_gpio.c> 
+OPTFFF 3,20,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_i2c.c><stm32f10x_i2c.c> 
+OPTFFF 3,21,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_iwdg.c><stm32f10x_iwdg.c> 
+OPTFFF 3,22,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_lib.c><stm32f10x_lib.c> 
+OPTFFF 3,23,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_nvic.c><stm32f10x_nvic.c> 
+OPTFFF 3,24,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_pwr.c><stm32f10x_pwr.c> 
+OPTFFF 3,25,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_rcc.c><stm32f10x_rcc.c> 
+OPTFFF 3,26,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_rtc.c><stm32f10x_rtc.c> 
+OPTFFF 3,27,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_sdio.c><stm32f10x_sdio.c> 
+OPTFFF 3,28,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_spi.c><stm32f10x_spi.c> 
+OPTFFF 3,29,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_systick.c><stm32f10x_systick.c> 
+OPTFFF 3,30,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_tim.c><stm32f10x_tim.c> 
+OPTFFF 3,31,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_usart.c><stm32f10x_usart.c> 
+OPTFFF 3,32,1,0,0,0,0,0,<.\FWLib\src\stm32f10x_wwdg.c><stm32f10x_wwdg.c> 
+
+ExtF <F:\创业项目\STM32开发板\STM32调试\例程代码调试\STM32_2.4_TFT_9325\FWlib\inc\stm32f10x_map.h> 803,810,0,{ 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,22,0,0,0,29,0,0,0,71,4,0,0,26,1,0,0 }
+ExtF <F:\创业项目\STM32开发板\STM32调试\例程代码调试\STM32_2.4_TFT_9325\FWlib\inc\stm32f10x_type.h> 46,46,0,{ 44,0,0,0,2,0,0,0,3,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,22,0,0,0,29,0,0,0,71,4,0,0,78,1,0,0 }
+
+TARGOPT 1, (Target 1)
+ ADSCLK=8000000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<.\Obj\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 255
+  OPTBL 0,(Reference Manual)<DATASHTS\ST\STM32F10xxx.PDF>
+  OPTDL (SARMCM3.DLL)()(DARMSTM.DLL)(-pSTM32F103VE)(SARMCM3.DLL)()(TARMSTM.DLL)(-pSTM32F103VE)
+  OPTDBG 49150,7,()()()()()()()()()() (Segger\JL2CM3.dll)()()()
+  OPTKEY 0,(DLGTARM)((1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(100=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(1011=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=-1,-1,-1,-1,0)(121=-1,-1,-1,-1,0)(122=-1,-1,-1,-1,0)(123=-1,-1,-1,-1,0)(124=-1,-1,-1,-1,0)(125=-1,-1,-1,-1,0)(126=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(132=-1,-1,-1,-1,0)(133=-1,-1,-1,-1,0)(160=-1,-1,-1,-1,0)(161=-1,-1,-1,-1,0)(162=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(211=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(221=-1,-1,-1,-1,0)(230=-1,-1,-1,-1,0)(231=-1,-1,-1,-1,0)(232=-1,-1,-1,-1,0)(233=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0)(151=-1,-1,-1,-1,0))
+  OPTKEY 0,(ARMDBGFLAGS)()
+  OPTKEY 0,(DLGUARM)((105=-1,-1,-1,-1,0)(106=-1,-1,-1,-1,0)(107=-1,-1,-1,-1,0))
+  OPTKEY 0,(UL2CM3)(-O14 -S0 -C0 -N00("ARM Cortex-M3") -D00(1BA00477) -L00(4) -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_512 -FS08000000 -FL080000)
+  OPTKEY 0,(JL2CM3)(-U20100214 -O14 -S0 -A0 -C-1 -JU1 -JI127.0.0.1 -JP0 -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TRE0 -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_512 -FS08000000 -FL080000)
+  OPTDF 0x80
+  OPTLE <>
+  OPTLC <>
+EndOpt
+

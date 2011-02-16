@@ -1,0 +1,1 @@
+--device DARMSTM -g --apcs=interwork -I "d:\Keil\ARM\INC\ST\STM32F10x" --list ".\Obj\cortexm3_macro.lst" --xref -o ".\Obj\cortexm3_macro.o" "Core\cortexm3_macro.s"

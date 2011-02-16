@@ -1,0 +1,21 @@
+int main(void){}
+void SystemInit (void){}
+void GPIO_Config(void){}
+void NVIC_Configuration(void){}
+void EXTI_Config(void){}
+RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE){}
+delay_init(72){}
+RCC_AHBPeriphClockCmd(RCC_AHBPeriph_FSMC, ENABLE){}
+LCD_Setup(){}
+void FSMC_LCD_Init(void){}
+SPI_Flash_Init(){}
+void assert_failed(u8* file, u32 line){}
+void LCD_DrawCircle(u8 Xpos, u16 Ypos, u16 Radius){}
+void address_set(unsigned int x1,unsigned int y1,unsigned int x2,unsigned int y2){}
+void dis_juanxing(void){}
+void dis_bowen(){}
+void dis_baiye(void){}
+void dis_zhongkai(void){}
+void test(void){}
+void show_picture(const unsigned char *p){}
+void  Delay (u32 nCount){}

@@ -1,0 +1,1 @@
+-c --device DARMSTM -g -O0 --apcs=interwork -I.\FWlib\inc -I.\user -I "d:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o ".\Obj\stm32f10x_i2c.o" --omf_browse ".\Obj\stm32f10x_i2c.crf" --depend ".\Obj\stm32f10x_i2c.d" "FWLib\src\stm32f10x_i2c.c"

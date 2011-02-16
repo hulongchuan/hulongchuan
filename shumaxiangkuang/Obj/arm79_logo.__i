@@ -1,0 +1,1 @@
+-c --device DARMSTM -g -O0 --apcs=interwork -I.\FWlib\inc -I.\user -I "d:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o ".\Obj\arm79_logo.o" --omf_browse ".\Obj\arm79_logo.crf" --depend ".\Obj\arm79_logo.d" "User\arm79_logo.c"

@@ -1,0 +1,1 @@
+--device DARMSTM -g --apcs=interwork -I "d:\Keil\ARM\INC\ST\STM32F10x" --list ".\Obj\stm32f10x_vector.lst" --xref -o ".\Obj\stm32f10x_vector.o" "Core\stm32f10x_vector.s"
